@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RegistroIncuba</string>
+    <string name="id">ID</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Login</string>
+    <string name="Logo">LogoImage</string>
+</resources>
