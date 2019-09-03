@@ -1,0 +1,257 @@
+[29-Jul-2019 16:56:50 UTC] PHP Warning:  require_once(conexionBD.php): failed to open stream: No such file or directory in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/registrarUsuario.php on line 2
+[29-Jul-2019 16:56:50 UTC] PHP Fatal error:  require_once(): Failed opening required 'conexionBD.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/registrarUsuario.php on line 2
+[29-Jul-2019 17:13:45 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[29-Jul-2019 17:13:45 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[29-Jul-2019 17:13:49 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[29-Jul-2019 17:13:49 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[29-Jul-2019 17:14:11 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[29-Jul-2019 17:14:11 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[29-Jul-2019 17:16:32 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 18
+[29-Jul-2019 17:17:08 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[29-Jul-2019 17:17:08 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[29-Jul-2019 17:17:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_affected_rows() in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 18
+[29-Jul-2019 17:19:13 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[29-Jul-2019 17:19:13 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[29-Jul-2019 17:20:05 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[29-Jul-2019 17:20:05 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[29-Jul-2019 17:20:10 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[29-Jul-2019 17:20:10 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[29-Jul-2019 18:38:43 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[29-Jul-2019 18:38:43 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[13-Aug-2019 16:31:48 UTC] PHP Notice:  Undefined index: email in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/obtenerDatosUsuarios.php on line 15
+[14-Aug-2019 19:39:41 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[14-Aug-2019 19:39:41 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[14-Aug-2019 19:39:41 UTC] PHP Notice:  Undefined index: hash in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 11
+[14-Aug-2019 19:40:07 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[14-Aug-2019 19:40:07 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[14-Aug-2019 19:42:54 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[14-Aug-2019 19:42:54 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[14-Aug-2019 19:43:05 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[14-Aug-2019 19:43:05 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[14-Aug-2019 19:43:05 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 30
+[14-Aug-2019 19:43:09 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[14-Aug-2019 19:43:09 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[14-Aug-2019 19:43:10 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 30
+[14-Aug-2019 19:44:04 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[14-Aug-2019 19:44:04 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[14-Aug-2019 19:44:06 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[14-Aug-2019 19:44:06 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[14-Aug-2019 19:51:07 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[14-Aug-2019 19:51:07 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[14-Aug-2019 19:51:52 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[14-Aug-2019 19:51:52 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[14-Aug-2019 19:54:10 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[14-Aug-2019 19:54:10 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[14-Aug-2019 19:55:31 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[14-Aug-2019 19:55:31 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[14-Aug-2019 20:00:02 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[14-Aug-2019 20:00:02 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[14-Aug-2019 20:01:05 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[14-Aug-2019 20:01:05 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[14-Aug-2019 20:02:09 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[14-Aug-2019 20:02:09 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[14-Aug-2019 20:04:30 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[14-Aug-2019 20:04:30 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[14-Aug-2019 20:06:18 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[14-Aug-2019 20:06:18 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[14-Aug-2019 20:06:27 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[14-Aug-2019 20:06:27 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[14-Aug-2019 20:07:40 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[14-Aug-2019 20:07:40 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[14-Aug-2019 20:07:49 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[14-Aug-2019 20:07:49 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[14-Aug-2019 20:08:57 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[14-Aug-2019 20:08:57 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[14-Aug-2019 20:12:15 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[14-Aug-2019 20:12:15 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[14-Aug-2019 20:12:59 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[14-Aug-2019 20:12:59 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[14-Aug-2019 20:14:06 UTC] PHP Notice:  Undefined index: idUsuario in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 4
+[14-Aug-2019 20:14:06 UTC] PHP Notice:  Undefined index: idEvento in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuario.php on line 5
+[14-Aug-2019 20:28:15 UTC] PHP Notice:  Undefined index: id in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 4
+[14-Aug-2019 20:28:15 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[14-Aug-2019 20:28:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[14-Aug-2019 20:28:22 UTC] PHP Notice:  Undefined index: id in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 4
+[14-Aug-2019 20:28:22 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[14-Aug-2019 20:28:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[14-Aug-2019 20:29:29 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[14-Aug-2019 20:29:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[14-Aug-2019 20:29:35 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[14-Aug-2019 20:29:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[14-Aug-2019 20:30:05 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[14-Aug-2019 20:30:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[14-Aug-2019 20:30:10 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[14-Aug-2019 20:30:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:17:16 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:17:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:17:18 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:17:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:17:35 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:17:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:17:44 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:17:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:17:48 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:17:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:17:59 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:17:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:18:05 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:18:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:18:19 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:18:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:18:27 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:18:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:18:31 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:18:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:18:43 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:18:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:18:48 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:18:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:18:54 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:18:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:19:01 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:19:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:19:13 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:19:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:19:28 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:19:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:19:31 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:19:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:19:42 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:19:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:19:50 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:19:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:20:01 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:20:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:20:03 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:20:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:20:11 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:20:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:20:16 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:20:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:20:21 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:20:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:20:27 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:20:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:20:31 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 18:20:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[15-Aug-2019 21:10:18 UTC] PHP Notice:  Undefined index: id in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/loginQRScan.php on line 15
+[15-Aug-2019 21:10:18 UTC] PHP Notice:  Undefined index: password in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/loginQRScan.php on line 16
+[15-Aug-2019 21:10:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/loginQRScan.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/loginQRScan.php on line 21
+[16-Aug-2019 15:49:54 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[16-Aug-2019 15:49:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[16-Aug-2019 16:03:12 UTC] PHP Notice:  Undefined variable: result in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[16-Aug-2019 16:03:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/asistenciaUsuarioId.php on line 25
+[21-Aug-2019 18:54:02 UTC] PHP Notice:  Undefined index: id in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/loginQRScan.php on line 15
+[21-Aug-2019 18:54:02 UTC] PHP Notice:  Undefined index: password in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/loginQRScan.php on line 16
+[21-Aug-2019 18:54:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/loginQRScan.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/ib6pc4vrgulo/public_html/PHPEventosIncubadora/loginQRScan.php on line 21

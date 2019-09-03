@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -22,7 +23,9 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.text.DateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.concurrent.ExecutionException;
 
 public class MainActivity extends AppCompatActivity {
@@ -30,15 +33,12 @@ public class MainActivity extends AppCompatActivity {
     String IP = "https://www.zafiraconsulting.com.mx/PHPEventosIncubadora/";
     final Activity activity = this;
 
+    Integer indiceEvento;
     Button botonScan,botonRegistro;
     String scannedData="";
-    String resultado="";
     Spinner spinner;
-    String spinnerSe = "";
     EditText idText;
 
-    String Radio="nada";
-    String RadioId="nada";
     RadioButton rQr, rId;
 
     ArrayList<String> nombreEventos = new ArrayList<String>();
@@ -84,6 +84,17 @@ public class MainActivity extends AppCompatActivity {
         ArrayAdapter<String> a = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line, nombreEventos);
         spinner.setAdapter(a);
 
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                indiceEvento = i;
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+            }
+        });
+
         botonScan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -113,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
 
                     try {
 
-                        String response =  connection.execute(IP+"asistenciaUsuarioId.php?id=" + id + "&evento=1").get();
+                        String response =  connection.execute(IP+"asistenciaUsuarioId.php?id=" + id + "&evento="+idEventos.get(indiceEvento).toString()).get();
                         JSONArray jsonArray = new JSONArray(response);
 
                         if (jsonArray.length() > 0){
@@ -121,6 +132,15 @@ public class MainActivity extends AppCompatActivity {
                             JSONObject jsonObject = jsonArray.getJSONObject(0);
 
                             String respuesta = jsonObject.getString("respuesta");
+
+                            if (respuesta != null){
+                                Toast.makeText(MainActivity.this,"Bienvenido "+respuesta, Toast.LENGTH_SHORT).show();
+                                idText.setText("");
+                            }else{
+                                Toast.makeText(MainActivity.this,"Error ", Toast.LENGTH_SHORT).show();
+                                idText.setText("");
+                            }
+
                         }else {
                             Toast.makeText(MainActivity.this,"Error extraño", Toast.LENGTH_SHORT).show();
                         }
@@ -157,7 +177,7 @@ public class MainActivity extends AppCompatActivity {
 
                 try {
 
-                    String response =  connection.execute(IP+"asistenciaUsuario.php?hash=" + scannedData + "&evento=1").get();
+                    String response =  connection.execute(IP+"asistenciaUsuario.php?hash=" + scannedData + "&evento="+idEventos.get(indiceEvento).toString()).get();
 
                     JSONArray jsonArray = new JSONArray(response);
 
@@ -168,13 +188,9 @@ public class MainActivity extends AppCompatActivity {
                         String respuesta = jsonObject.getString("respuesta");
 
                         if (respuesta != null){
-                            Toast.makeText(MainActivity.this,"Respuesta "+respuesta, Toast.LENGTH_SHORT).show();
-                            if (respuesta == ""){
-                                Toast.makeText(MainActivity.this,"registro exitoso", Toast.LENGTH_SHORT).show();
-                            }
+                            Toast.makeText(MainActivity.this,"Bienvenido "+respuesta, Toast.LENGTH_SHORT).show();
                         }else{
-                            String error = jsonObject.getString("error");
-                            Toast.makeText(MainActivity.this,"Error "+error, Toast.LENGTH_SHORT).show();
+                            Toast.makeText(MainActivity.this,"Error ", Toast.LENGTH_SHORT).show();
                         }
 
 
@@ -187,8 +203,8 @@ public class MainActivity extends AppCompatActivity {
                 } catch (ExecutionException e) {
                     e.printStackTrace();
                 } catch (JSONException e) {
-                    e.printStackTrace();
-                    Toast.makeText(MainActivity.this,""+e.getMessage(), Toast.LENGTH_SHORT).show();
+                        e.printStackTrace();
+                        Toast.makeText(MainActivity.this, "" + e.getMessage(), Toast.LENGTH_SHORT).show();
                 }
 
             }

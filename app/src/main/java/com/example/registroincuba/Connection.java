@@ -48,7 +48,7 @@ public class Connection extends AsyncTask <String,String,String> {
             e.printStackTrace();
         }
 
-        return "";
+        return "ERROR";
     }
 
     @Override

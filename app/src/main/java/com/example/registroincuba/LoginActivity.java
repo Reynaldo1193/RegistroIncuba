@@ -19,7 +19,7 @@ public class LoginActivity extends AppCompatActivity {
     private TextView txtid, txtcontraseña;
     private String id,contraseña;
     private Button btnlogin;
-    private String IP = "https://www.zafiraconsulting.com.mx/PHPEventosIncubadora/loginQRScan.php";
+    private String IP = "www.zafiraconsulting.com.mx/PHPEventosIncubadora/loginQRScan.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,3 +75,6 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 }
+
+
+//Josue, Roberto, Luis, Cesar Fabi, Rodri Reynaldo,
