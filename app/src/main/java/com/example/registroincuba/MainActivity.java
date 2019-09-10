@@ -68,8 +68,8 @@ public class MainActivity extends AppCompatActivity {
             for (int i = 0; i< jsonArray.length(); i++){
                 JSONObject jsonObject = jsonArray.getJSONObject(i);
 
-                nombreEventos.add(jsonObject.getString("nombre_evento"));
-                idEventos.add(jsonObject.getInt("id_evento"));
+                nombreEventos.add(jsonObject.getString("nombreEvento"));
+                idEventos.add(jsonObject.getInt("idEvento"));
 
             }
 
