@@ -34,12 +34,12 @@ public class MainActivity extends AppCompatActivity {
     final Activity activity = this;
 
     Integer indiceEvento;
-    Button botonScan,botonRegistro;
+    Button botonScan,botonRegistro, btnCorreo;
     String scannedData="";
     Spinner spinner;
-    EditText idText;
+    EditText idText, idTextCorreo;
 
-    RadioButton rQr, rId;
+    RadioButton rQr, rId,rCorreo;
 
     ArrayList<String> nombreEventos = new ArrayList<String>();
     ArrayList<Integer> idEventos = new ArrayList<Integer>();
@@ -51,11 +51,14 @@ public class MainActivity extends AppCompatActivity {
 
         botonScan = findViewById(R.id.botonScan);
         botonRegistro = findViewById(R.id.botonRegistro);
+        btnCorreo = findViewById(R.id.btnCorreo);
         spinner = findViewById(R.id.spinnerEventos);
 
         idText = findViewById(R.id.idText);
-        rQr = findViewById(R.id.rQr);
-        rId = findViewById(R.id.rId);
+        idTextCorreo = findViewById(R.id.idTextCorreo);
+        rQr = (RadioButton) findViewById(R.id.rQr);
+        rId = (RadioButton) findViewById(R.id.rId);
+        rCorreo = (RadioButton) findViewById(R.id.rCorreo);
 
         Connection connection = new Connection();
 
@@ -158,6 +161,54 @@ public class MainActivity extends AppCompatActivity {
             }
 
     });
+
+        btnCorreo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String correo = idTextCorreo.getText().toString();
+
+                if(correo.isEmpty()){
+
+                    Toast.makeText(MainActivity.this,"Llena todos los datos",Toast.LENGTH_SHORT).show();
+
+                }else{
+                    Connection connection = new Connection();
+
+                    try {
+
+                        String response =  connection.execute(IP+"asistenciaUsuarioCorreo.php?correo="+correo+"&evento="+idEventos.get(indiceEvento).toString()).get();
+                        JSONArray jsonArray = new JSONArray(response);
+
+                        if (jsonArray.length() > 0){
+
+                            JSONObject jsonObject = jsonArray.getJSONObject(0);
+
+                            String respuesta = jsonObject.getString("respuesta");
+
+                            if (respuesta != null){
+                                Toast.makeText(MainActivity.this,"Bienvenido "+respuesta, Toast.LENGTH_SHORT).show();
+                                idTextCorreo.setText("");
+                            }else{
+                                Toast.makeText(MainActivity.this,"Error ", Toast.LENGTH_SHORT).show();
+                                idTextCorreo.setText("");
+                            }
+
+                        }else {
+                            Toast.makeText(MainActivity.this,"Error extraño", Toast.LENGTH_SHORT).show();
+                        }
+
+
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    } catch (ExecutionException e) {
+                        e.printStackTrace();
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+
+                }
+            }
+        });
     }
 
     @Override
@@ -216,14 +267,26 @@ public class MainActivity extends AppCompatActivity {
         if (rId.isChecked() == true)
         {
             botonScan.setVisibility(View.INVISIBLE);
+            btnCorreo.setVisibility(View.INVISIBLE);
             botonRegistro.setVisibility(View.VISIBLE);
             idText.setVisibility(View.VISIBLE);
+            idTextCorreo.setVisibility(View.INVISIBLE);
         }
         else if(rQr.isChecked() == true)
         {
             botonRegistro.setVisibility(View.INVISIBLE);
+            btnCorreo.setVisibility(View.INVISIBLE);
             botonScan.setVisibility(View.VISIBLE);
             idText.setVisibility(View.INVISIBLE);
+            idTextCorreo.setVisibility(View.INVISIBLE);
+        }
+        else if(rCorreo.isChecked() == true)
+        {
+            btnCorreo.setVisibility(View.VISIBLE);
+            botonRegistro.setVisibility(View.INVISIBLE);
+            botonScan.setVisibility(View.INVISIBLE);
+            idText.setVisibility(View.INVISIBLE);
+            idTextCorreo.setVisibility(View.VISIBLE);
         }
     }
 }
